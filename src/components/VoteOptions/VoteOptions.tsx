@@ -1,5 +1,5 @@
 import css from './VoteOption.module.css'
-import { VoteType } from '../types/votes'
+import { VoteType } from '../../types/votes'
 
 
 type VoteOptionProps = {

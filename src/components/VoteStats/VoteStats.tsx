@@ -1,5 +1,5 @@
 import styles from "./VoteStats.module.css"
-import {Votes} from "../types/votes.tsx"
+import {Votes} from "../../types/votes.ts"
 
 
 type VoteStatsProps = {
