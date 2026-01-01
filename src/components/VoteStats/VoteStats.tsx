@@ -2,7 +2,7 @@ import styles from "./VoteStats.module.css"
 import {Votes} from "../../types/votes.ts"
 
 
-type VoteStatsProps = {
+interface VoteStatsProps {
     votes: Votes,
     totalVotes: number,
     positiveRate: number,
